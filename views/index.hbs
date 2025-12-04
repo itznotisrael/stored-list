@@ -4,11 +4,15 @@
 {{/each}}
 </h1>
 
-<ul>
-{{#each users}}
-  <li>{{this.class}}</li>
+<div class = "frosted-paragraph">
   <ul>
-    <li>{{this.Date}}</li>
+  {{#each users}}
+    <li>{{this.class}}</li>
+    &nbsp;
+    <ul>
+      <li>{{this.Date}}</li>
+      &nbsp;
+    </ul>
+  {{/each}}
   </ul>
-{{/each}}
-</ul>
+</div>
