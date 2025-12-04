@@ -1,8 +1,18 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/*Unique Text*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(135deg, #0d1b2a, #1b263b, #415a77, #667586, #a5a5a5);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
-  color: #00B7FF;
+  color: #f9f9f9;
 }
+
+
