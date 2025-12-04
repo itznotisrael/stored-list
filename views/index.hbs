@@ -1,7 +1,16 @@
-<h1>{{title}}</h1>
+<h1>
+{{#each users}}
+  {{this.title}}
+{{/each}}
+</h1>
 
 <ul>
 {{#each users}}
-  <li>{{this.name}}</li>
+  <li>{{this.class}}</li>
+  
+  <ul>
+
+    <li>{{this.Date}}</li>
+  </ul>
 {{/each}}
 </ul>
