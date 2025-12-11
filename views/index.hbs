@@ -1,16 +1,28 @@
 <h1 class="tracking-in-contract-bck-top"><i>User List</i></h1>
 
 <div class="frosted-paragraph">
-  <ul class="user-list">
+  <!--<ul class="user-list">
     {{#each users}}
       <li class="user-entry">
         <h2 class="user-title">{{this.title}}</h2>
         <ul class="user-details">
           <li><strong>Class:</strong> {{this.class}}</li>
           <li><strong>Date:</strong> {{this.Date}}</li>
-        </ul>
+         
       </li>
     {{/each}}
-  </ul>
+  </ul>-->
+   <div id="form">
+      <input id="text" placeholder="Add an item…" />
+      <button id="add-item-button">Add</button>
+    </div>
+
+    <div class="toolbar">
+      <button id="sort">Sort A–Z</button>
+      <button id="clear">Clear All</button>
+    </div>
+
+    <ul id="list">
+    </ul>
 </div>
 
